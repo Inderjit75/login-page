@@ -112,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="category.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -132,13 +133,13 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="images\352667_beautiful-hd-butterfly-wallpapers_2880x1800_h.jpg" />
-    <Content Include="images\6389859-cute-hd-wallpapers.jpg" />
     <Content Include="images\beautiful-hd-wallpaper-2015_111526537_269.jpg" />
     <Content Include="images\beautiful-hd-wallpaper-2015_111526537_2699.jpg" />
     <Content Include="images\hd-wallpaper-ivy-leaves-207301.jpg" />
     <Content Include="images\hi.jpg" />
     <Content Include="images\images %282%29.jpg" />
     <Content Include="images\slovenia-mountains-sky-clouds-previeww.jpg" />
+    <Content Include="images\wooden-background-3217987_1920.jpg" />
     <Content Include="images\WOT_City_Skyline_59666a97d6b9065f33d429b7-1.jpeg" />
     <Content Include="login form.aspx" />
     <Content Include="main page.html" />
@@ -189,6 +190,10 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="category.aspx.cs">
+      <DependentUpon>category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

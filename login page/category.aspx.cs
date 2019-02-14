@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace login_page
 {
-    public partial class products : System.Web.UI.Page
+    public partial class category : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("page 2.aspx");
+            Response.Redirect("products.aspx");
         }
     }
 }
