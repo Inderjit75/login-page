@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .btn-group button {
+            background-color: grey;
+            height: 30px;
+            width: 100px
+        }
+
+        div.div11 {
+            padding-top: 10px;
+            padding-left: 300px;
+        }
+    </style>
+
+    <meta charset="utf-8" />
+    <title>HomePage</title>
+
+</head>
+<p align="right"> <a href="login form.aspx">
+    <button type="button"  style="height:30px; width:60px" >Logout</button></a>
+</p>
+<body style="background: url(images/WOT_City_Skyline_59666a97d6b9065f33d429b7-1.jpeg); background-repeat:no-repeat;">
+
+
+    <center><h1>Home Page</h1></center>
+    <div class="btn-group">
+        <a href="WebForm1.aspx">
+            <button>Home</button>
+        </a><br>
+        <a href="WebForm1.aspx">
+            <button>Category</button>
+        </a><br>
+        <a href="WebForm1.aspx">
+            <button>Product</button>
+        </a>
+    </div><br>
+    <div id="div1" width="100%" class="div11">
+        <table style="width:20%" border="1px">
+            <h3>Category Details</h3>
+            <tr>
+                <th>Categories</th>
+                <th>Number of Products</th>
+
+            </tr>
+            <tr>
+                <td>Action Movies</td>
+                <td>25550</td>
+            </tr>
+            <tr>
+                <td>Comedy Movies</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Horror Movies</td>
+                <td>2500</td>
+            </tr>
+            <br>
+        </table>
+        <br>
+        <button type="button" onClick="alert('Add Data')">Add Category</button>
+        <br><br>
+
+        <table style="width:20%" border="1px">
+            <h3>Product Details</h3>
+            <tr>
+                <th>Category Name</th>
+                <th>Product Name</th>
+                <th>Available Quantity</th>
+            </tr>
+            <tr>
+                <td>Action Movies</td>
+                <td>WonderWomen</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Comedy Movies</td>
+                <td>Hangover</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Horror Movies</td>
+                <td>Boarding School</td>
+                <td>345</td>
+            </tr>
+
+        </table>
+
+        <br>
+        <button type="button" onClick="alert('Add Product')">Add Product</button>
+    </div>
+</body>
+</html>
